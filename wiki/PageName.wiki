@@ -20,4 +20,13 @@ You can set default config in bs2grpconfig.py. But how ever it's not encouraged 
 
 After the first run on app engine, a data entry will be created in table "BS2GRPConfig". You can set run time options there using *Data View* in app admin page.
 
+==Options in BS2GRPConfig==
+HTML target url
+*TARGET_HOST = "www.google.com"*
+Static target url
+*STATIC_HOST = "www.google.com"*
+Redirect css/js files to static host
+*CSSJS_REDIRECT = False*
+Redirect media files to static host
+*MEDIA_REDIRECT = True*
   
