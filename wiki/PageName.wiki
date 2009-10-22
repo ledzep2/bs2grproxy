@@ -18,6 +18,6 @@ A small app runs on Google App Engine as a reverse proxy to a specific site.
 ==Configuration==
 You can set default config in bs2grpconfig.py. But how ever it's not encouraged to modify the source code unless you understand it.
 
-After the first run on app engine, a date entry is created in table "BS2GRPConfig". You can set run time config there using *Data View* in app admin page.
+After the first run on app engine, a data entry will be created in table "BS2GRPConfig". You can set run time options there using *Data View* in app admin page.
 
   
