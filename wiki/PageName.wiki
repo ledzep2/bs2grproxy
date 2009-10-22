@@ -1,0 +1,10 @@
+#BS2GRProxy Introduction
+
+==Introduction==
+
+A small app runs on Google App Engine as a reverse proxy to a specific site.
+
+==Features==
+  * Reverse proxy
+  * Web pages, css/js and media files can be redirected to different hosts
+  * Configurable through Google App Database view
