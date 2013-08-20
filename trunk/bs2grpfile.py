@@ -36,9 +36,6 @@ class BS2GRPFile(db.Model):
 
     @staticmethod
     def get_file(path, after_date = None, before_date = None):
-        if not after_date and not before_date:
-            return BS2GRPFile.get_by_key_name(path)
-
         ret = BS2GRPFile.all()
         ret.filter('path =', path)
         if after_date:
